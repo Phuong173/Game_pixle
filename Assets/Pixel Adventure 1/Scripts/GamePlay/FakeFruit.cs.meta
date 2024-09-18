@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a305040b0089d744d9079ae044b782e8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_FruitCollectedEffectPrefab: {fileID: 305595148568355932, guid: 3ba35246e5999eb46a4cda0891d8eb72, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

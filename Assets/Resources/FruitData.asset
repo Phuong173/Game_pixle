@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 922d09b1327e41f6b1c95cfe4497af9e, type: 3}
+  m_Name: FruitData
+  m_EditorClassIdentifier: 
+  m_FruitItemData:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 0000000001000000020000000300000004000000050000000600000007000000
+    _keys: 0000000001000000020000000300000004000000050000000600000007000000
+    _values:
+    - m_FruitType: 0
+      m_PoolingName: 2
+      m_PoolingNameFruit: 11
+      m_Cooldown: 1
+      icon: {fileID: 7293598183456022363, guid: 1ddc9afd21fec77489b1248d18f31b68, type: 3}
+    - m_FruitType: 1
+      m_PoolingName: 3
+      m_PoolingNameFruit: 12
+      m_Cooldown: 0.5
+      icon: {fileID: -5728686177044832811, guid: b1f24b3bc2e2f1d4b858657ad5c115a0, type: 3}
+    - m_FruitType: 2
+      m_PoolingName: 4
+      m_PoolingNameFruit: 13
+      m_Cooldown: 3
+      icon: {fileID: -4570538037665054336, guid: 3d6be91968cb95546ac95aeff5e52f84, type: 3}
+    - m_FruitType: 3
+      m_PoolingName: 5
+      m_PoolingNameFruit: 14
+      m_Cooldown: 3
+      icon: {fileID: 4138223980208024357, guid: 5100b75572e484e458e4340e2afe9454, type: 3}
+    - m_FruitType: 4
+      m_PoolingName: 6
+      m_PoolingNameFruit: 15
+      m_Cooldown: 0.5
+      icon: {fileID: 3776312371561069292, guid: 031678d507e557a41b7a16fc33bf6c39, type: 3}
+    - m_FruitType: 5
+      m_PoolingName: 7
+      m_PoolingNameFruit: 16
+      m_Cooldown: 1
+      icon: {fileID: 4121880872312635667, guid: ffc9f271fad56c243a45f100b9dc6778, type: 3}
+    - m_FruitType: 6
+      m_PoolingName: 8
+      m_PoolingNameFruit: 17
+      m_Cooldown: 5
+      icon: {fileID: 837517196756356485, guid: 131e485692e27e84c86170dad18cda85, type: 3}
+    - m_FruitType: 7
+      m_PoolingName: 9
+      m_PoolingNameFruit: 18
+      m_Cooldown: 3
+      icon: {fileID: 1775669009216684005, guid: a2c110585eb710b408972fbc3b96136d, type: 3}
+  FruitItemDataBase:
+    m_FruitType: 8
+    m_PoolingName: 1
+    m_PoolingNameFruit: 0
+    m_Cooldown: 0.5
+    icon: {fileID: 0}

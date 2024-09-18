@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6005611906384842975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6005611906384842974}
+  - component: {fileID: 6005611906384842973}
+  m_Layer: 0
+  m_Name: PoolingManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6005611906384842974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005611906384842975}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6005611906384842973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005611906384842975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590fa4cae767d1148a47242c7450b87b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PoolingBehaviors:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 000000000200000003000000040000000500000006000000070000000800000009000000010000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000
+    _keys: 000000000200000003000000040000000500000006000000070000000800000009000000010000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000
+    _values:
+    - {fileID: 3127819715964233532, guid: 4b33a0a940176fe4f9de06dffcfbed59, type: 3}
+    - {fileID: 3979070296331013504, guid: a687d813943127f4dae9ba0057263a5c, type: 3}
+    - {fileID: 5073779941573294160, guid: f61e5f3984594bb4da118d5ea4347ca8, type: 3}
+    - {fileID: -26711278801702331, guid: cb71d0d4247f31e4b8510e45a17423f8, type: 3}
+    - {fileID: -4476966829547355415, guid: 6df86ef6581ee464fa0003efd9637b1c, type: 3}
+    - {fileID: 3456915129883961130, guid: 0e55de789f9c6854283ef1f34c9d4117, type: 3}
+    - {fileID: -2907997334000592287, guid: ccb9eac1585031f4287fe98a8767d5f4, type: 3}
+    - {fileID: 577481830427528978, guid: 6a8bff843c8cda844904db209d98be3a, type: 3}
+    - {fileID: 698435047408966270, guid: 7993c190692287d4a9ad6fa4242b7b54, type: 3}
+    - {fileID: 2794716102040833122, guid: bd24c911c6e714b4c90d294141e59c07, type: 3}
+    - {fileID: 5458301990574759006, guid: 3ba35246e5999eb46a4cda0891d8eb72, type: 3}
+    - {fileID: -2045245882538029948, guid: e6583c58a1d3e2449a2ed8bc2f1a3ddd, type: 3}
+    - {fileID: -8027057918387163808, guid: 6a4aaa5b4893bbe4082596c2f6c436e3, type: 3}
+    - {fileID: 787769719789134335, guid: 904b57bee255f414cac67af22bb1a8f1, type: 3}
+    - {fileID: -2725588224561372598, guid: 8e5f895de4ad19548bbda1b50c5db512, type: 3}
+    - {fileID: -2297585434112075464, guid: eb2e6720fe0c861468e94cf82e596f1d, type: 3}
+    - {fileID: 4859569726001068275, guid: 1977dc85155f49640b8ac9bbd82caf12, type: 3}
+    - {fileID: 2253370953328717441, guid: b768dc151219c3c4299783ea03bb9702, type: 3}
+    - {fileID: 4433519647899712586, guid: ab1117e21e3e79746aa972fe3712566c, type: 3}
+    - {fileID: 7052602956725579972, guid: a59cbc472ca0f414f8af8bae5397c07c, type: 3}
+    - {fileID: -2966961894037814783, guid: cd42444df670fbe43a20bc6d44803b5e, type: 3}
